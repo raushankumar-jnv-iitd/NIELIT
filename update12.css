@@ -1,0 +1,30 @@
+body
+{
+    background-color: #09568c;
+}
+.main
+{
+    background-color:#09568c;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-top: 1%;
+    padding: 1%;
+}
+.updateprofile
+{
+    background-color: rgb(50, 214, 214);
+    
+}
+.profile 
+{
+    background-color: aqua;
+    margin-left: 30%;
+}
+
+
+

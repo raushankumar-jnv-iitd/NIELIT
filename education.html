@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Education Details</title>
+  <style>
+    .education-form {
+      margin-bottom: 20px;
+    }
+    .education-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    .education-item {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Education Details</h1>
+
+  <div class="education-form">
+    <label for="institution">Institution:</label>
+    <input type="text" id="institution" required>
+
+    <label for="degree">Degree:</label>
+    <input type="text" id="degree" required>
+
+    <label for="year">Year:</label>
+    <input type="number" id="year" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+
+    <button onclick="addEducation()">Add Education</button>
+  </div>
+
+  <h2>Education List</h2>
+  <ul id="educationList" class="education-list"></ul>
+
+  <script src="education.js"></script>
+</body>
+</html>

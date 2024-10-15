@@ -1,0 +1,90 @@
+
+body
+{
+    background-color: #09568c;
+}
+
+.pic
+{
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    margin-left: 20%;
+}
+
+
+.uploads
+{
+    background-color:#09568c;
+    width: 30%;
+    margin-left: 35%;
+    padding: 3%;
+    border-radius: 20px;
+    margin-top: 7%;
+}
+input
+{
+    text-align: left;
+    margin: 10px;
+}
+label
+{
+    text-align: left;
+    margin: 10px;
+    color: whitesmoke;
+}
+.main
+{
+    text-align: center;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.gallery
+{
+    background-color: #09568c;
+}
+.admin-gallary
+{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: white;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.upload-admin
+{
+    background-color: rgb(9, 114, 243);
+    width: 100%;
+    border-radius:5px;
+    position: fixed;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+.admin
+{
+    margin-top: 10%;
+}
+.img
+{
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.gallery-upload-alumni
+{
+    text-align: right;
+
+}
+h6
+{
+    font-size: 20px;
+    background-color:#09568c;
+}
+

@@ -1,0 +1,37 @@
+body
+{
+    background-image: url('./nlt.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ctr
+{
+    color:whitesmoke;
+    font-size: 200%;
+    text-align: center;
+    margin-top: 10%;
+
+}
+.head +.navvar
+{
+    text-align: center;
+    color:#0e1641;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 10%;
+}
+.center
+{
+    color:#0e1641;
+    font-size: 200%;
+    text-align: center;
+
+}.quote-index
+{
+    margin-top: 10%;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    color:whitesmoke;
+}
